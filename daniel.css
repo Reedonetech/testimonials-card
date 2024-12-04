@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: lightblue;
+    padding: 60px;
+}
+main{
+    width: 99%;
+}
+.parent-div{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.left-parent-div{
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    width: 70vw;
+}
+.daniel-jonathan{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.daniel-div{
+    display: flex;
+    gap: 10px;
+    background-color: blueviolet;
+    width: 64%;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.dan{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+.fan img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.jonathan-div{
+    display: flex;
+    background-color:gray;
+    gap: 10px;
+    width: 32%;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.jon{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.car img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.Jeanette-patrick{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    
+}
+.Jeanette-div{
+    display: flex;
+    gap: 10px;
+    width: 32%;
+    flex-direction: column;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 5px;
+}
+.frog{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.jjj img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.Patrick-div{
+    display: flex;
+    gap: 10px;
+    width: 64%;
+    flex-direction: column;
+    background-color: rgb(23, 25, 26);
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.lion{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ppp img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.dj{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jj{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.rrr{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.tt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.right-parent-div{
+    width: 22vw;
+    padding: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    border-radius: 5px;
+}
+.cat{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.kira-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.goat img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    main{
+        width:
+    }
+    .parent-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .left-parent-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .daniel-jonathan{
+        display: flex;
+        flex-direction: column;
+    }
+    .daniel-div{
+        width: 100%;
+    }
+    .jonathan-div{
+        width: 100%;
+    }
+    .Jeanette-patrick{
+        display: flex;
+        flex-direction: column;
+    }
+    .Jeanette-div{
+        width: 100%;
+    }
+    .Patrick-div{
+        width: 100%;
+    }
+    .right-parent-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .kira-div{
+        width: 100%;
+    }
+}
+
